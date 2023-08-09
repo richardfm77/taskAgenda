@@ -194,3 +194,9 @@ footer {
   border-style: var(--bs-border-style);
   border-width: var(--bs-border-width);
 }
+
+.textLink {
+  text-decoration: none;
+  font-family: var(--bs-font-sans-serif);
+  color: var(--bs-gray-100);
+}

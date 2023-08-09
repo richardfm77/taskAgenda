@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
  * Manges the urls of user.
  * */
 @Controller
-@RequestMapping("/user")
+@RequestMapping({"/user", "/", ""})
 public class ControllerUser {
 
     /**
@@ -31,7 +31,7 @@ public class ControllerUser {
     /**
      * @return the view login.
      * */
-    @GetMapping("/login")
+    @GetMapping({"/login", ""})
     public String getLoginView(){
         return "login";
     }
